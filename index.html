@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>GlowGirl Accessories</title>
+
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<style>
+
+body{
+font-family: Arial;
+margin:0;
+background:#fff0f6;
+}
+
+header{
+background:#ff2e88;
+color:white;
+padding:20px;
+text-align:center;
+font-size:30px;
+}
+
+.products{
+display:flex;
+flex-wrap:wrap;
+justify-content:center;
+gap:25px;
+padding:20px;
+}
+
+.card{
+background:white;
+width:220px;
+border-radius:10px;
+box-shadow:0 4px 10px rgba(0,0,0,0.2);
+padding:15px;
+text-align:center;
+}
+
+.card img{
+width:100%;
+border-radius:10px;
+}
+
+.price{
+color:#ff2e88;
+font-size:20px;
+margin:10px 0;
+}
+
+button{
+background:#ff2e88;
+color:white;
+border:none;
+padding:10px 15px;
+border-radius:5px;
+cursor:pointer;
+}
+
+button:hover{
+background:#e60073;
+}
+
+footer{
+text-align:center;
+padding:15px;
+background:#ff2e88;
+color:white;
+margin-top:20px;
+}
+
+</style>
+
+</head>
+
+<body>
+
+<header>
+GlowGirl Accessories
+</header>
+
+<section class="products">
+
+<div class="card">
+<img src="https://i.imgur.com/7b1Yw6U.jpg">
+<h3>Elegant Necklace</h3>
+<p class="price">₹299</p>
+<button onclick="order()">Buy Now</button>
+</div>
+
+<div class="card">
+<img src="https://i.imgur.com/0XKzn8T.jpg">
+<h3>Golden Earrings</h3>
+<p class="price">₹199</p>
+<button onclick="order()">Buy Now</button>
+</div>
+
+<div class="card">
+<img src="https://i.imgur.com/2nCt3Sbl.jpg">
+<h3>Stylish Bracelet</h3>
+<p class="price">₹149</p>
+<button onclick="order()">Buy Now</button>
+</div>
+
+<div class="card">
+<img src="https://i.imgur.com/Ry6QZpL.jpg">
+<h3>Diamond Necklace</h3>
+<p class="price">₹399</p>
+<button onclick="order()">Buy Now</button>
+</div>
+
+</section>
+
+<footer>
+© 2026 GlowGirl Accessories
+</footer>
+
+<script>
+
+function order(){
+window.open("https://wa.me/91XXXXXXXXXX?text=Hello%20I%20want%20to%20order%20this%20product");
+}
+
+</script>
+
+</body>
+</html>
